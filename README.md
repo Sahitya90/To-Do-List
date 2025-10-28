@@ -2,7 +2,7 @@
 
 A simple and responsive to-do list application built with React. This project was created to practice core React concepts, including state management (`useState`), event handling, and conditional rendering.
 
-**Check out the live demo!** ➡️ **[https://to-do-list-sahitya90.vercel.app/](https://to-do-list-sahitya90.vercel.app/)**
+**Check out the live demo!** ➡️ **[https://to-do-list-sahitya90.vercel.app/](https://to-do-list-sahitya.vercel.app/)**
 
 
 
