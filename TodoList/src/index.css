@@ -1,0 +1,113 @@
+body{
+  background-color: #DDD0C8;
+}
+
+
+.todolist{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+
+}
+h1{
+  font-size : 4rem;
+}
+button{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  
+  
+
+}
+.Add{
+  background-color: hsla(120, 94%, 33%, 0.819);
+}
+.Add:hover{
+  background-color: hsla(120, 94%, 53%, 0.819);
+}
+.check{
+  background-color: hsl(120, 48%, 43%);
+}
+.check:hover{
+  background-color: hsl(120, 48%, 63%);
+}
+.delete{
+  
+  background-color: hsla(0, 96%, 42%, 0.822);
+}
+.delete:hover{
+  background-color: hsla(0, 96%, 62%, 0.822);
+}
+.move-up{
+  background-color: hsl(185, 89%, 36%);
+}
+
+.move-down{
+  background-color: hsl(185, 33%, 44%);
+
+}
+.move-up:hover{
+  background-color: hsl(185, 37%, 50%);
+}
+.move-down:hover{
+  background-color: hsl(185, 36%, 54%);
+}
+
+ol{
+  padding: 5px;
+  
+  
+  align-items: center;
+  
+  
+
+  
+  
+
+
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #c5a38d;
+  margin-bottom: 5px;
+  border: 3px solid #DDD0C8;
+  border-radius: 5px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+}
+.text{
+  flex: 1;
+
+}
+span{
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.delete, .move-down, .move-up{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 1opx;
+  display: flex;
+  flex-shrink: 1;
+
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  
+  
+  color: #9e765d;
+
+}
